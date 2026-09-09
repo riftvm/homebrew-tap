@@ -11,7 +11,7 @@ cask "riftvm" do
   homepage "https://riftvm.com"
 
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: ">= 27"
 
   app "RiftVM.app"
   binary "#{appdir}/RiftVM.app/Contents/Helpers/riftvm"
