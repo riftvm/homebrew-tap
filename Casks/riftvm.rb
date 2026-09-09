@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "riftvm" do
-  version "0.1.5"
-  sha256 "275659de3a04dd35c74ac81c7dfb95d5d62988583fba98541cacbb7e6bbd10b4"
+  version "0.1.6"
+  sha256 "1d8ff714096f5557d496c64153cc7886a8fbde54b83ed5c12db1cc9f47f49595"
 
   url "https://github.com/riftvm/riftvm/releases/download/riftvm-v#{version}/RiftVM-#{version}.zip?notarized=1"
   name "RiftVM"
