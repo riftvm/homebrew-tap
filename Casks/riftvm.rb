@@ -5,8 +5,8 @@ cask "riftvm" do
   # scripts/publish-release.sh rewrites these two lines from the notarized
   # archive before publishing, so keep them at the latest released version and
   # digest to keep the checked-in copy installable on its own.
-  version "0.5.10"
-  sha256 "2738d46c6f02d489a1131dbfa10700ee21e964dc6a9d7ff632665ed00b1a1d6c"
+  version "0.5.11"
+  sha256 "78f037eb939fa49ab64c9257f21ac49078499238abcbc9d8147bd30d589275fc"
 
   url "https://github.com/riftvm/riftvm/releases/download/riftvm-v#{version}/RiftVM-#{version}.zip?notarized=1"
   name "RiftVM"
